@@ -1,0 +1,9 @@
+2019-03-05 15:09:50,867:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', models='models', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data', train_data='data', update_embedding=True)
+2019-03-05 15:09:52,564:INFO: Restoring parameters from ./models/1521112368/checkpoints/model-31680
+2019-03-05 15:09:52,564:INFO: Restoring parameters from ./models/1521112368/checkpoints/model-31680
+2019-03-05 15:10:56,339:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', models='models', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data', train_data='data', update_embedding=True)
+2019-03-05 15:10:57,668:INFO: Restoring parameters from ./models/1521112368/checkpoints/model-31680
+2019-03-05 15:10:57,668:INFO: Restoring parameters from ./models/1521112368/checkpoints/model-31680
+2019-03-05 15:13:50,507:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', models='models', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data', train_data='data', update_embedding=True)
+2019-03-05 15:13:51,729:INFO: Restoring parameters from ./models/1521112368/checkpoints/model-31680
+2019-03-05 15:13:51,729:INFO: Restoring parameters from ./models/1521112368/checkpoints/model-31680
