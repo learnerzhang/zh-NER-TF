@@ -43,7 +43,7 @@ def vocab_build(vocab_path, corpus_path, min_count):
     :return:
     """
     data = read_corpus(corpus_path)
-    word2id = {}
+    word2id = {}  # (idx, nums)
     for sent_, tag_ in data:
         for word in sent_:
             if word.isdigit():
@@ -165,3 +165,6 @@ def batch_yield(data, batch_size, vocab, tag2label, shuffle=False):
 
 if __name__ == '__main__':
     vocab_build(vocab_path="./lic2019/word2id.pkl", corpus_path="./lic2019/train_data", min_count=3)
+    # train_data = read_corpus("./lic2019/train_data.dat")
+    # word2id = read_dictionary("./lic2019/word2id.pkl")
+
